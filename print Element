@@ -1,0 +1,8 @@
+class printArray
+{
+    public static void main(String[]args)
+    {
+        int arr[] =new int[] {11,12,13,32,43};
+        System.out.println(arr[0]);
+    }
+}
