@@ -1,0 +1,28 @@
+import java.util.*;
+class lsearch
+{
+    public static void main(String[]args)
+    {
+        int arr[] =new int[]{11,2,9,13,57,95,73,45,23};
+        System.out.println("enter element to be search.......");
+        Scanner sc=new Scanner(System.in);
+        int search=sc.nextInt();
+        int flag=0;
+        int i;
+        for(i=0; i<arr.length;i++)
+        {
+            if (arr[i] == search)
+            {
+                flag=1;
+                break;
+            }
+        }
+        if (flag ==1)
+        {
+            System.out.println("Element search successfully at the index :"+i);
+        }
+        else{
+             System.out.println("Element not found.");
+        }
+    }
+}
